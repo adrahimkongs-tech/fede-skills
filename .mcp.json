@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "edge": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@getedge/mcp"
+      ],
+      "env": {
+        "EDGE_KEY": "${EDGE_KEY}"
+      }
+    }
+  }
+}
